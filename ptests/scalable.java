@@ -37,7 +37,8 @@ public class scalable {
 	           put("width", 600);
 	           put("height", 1000);
 	           put("mobile", true);
-	           put("deviceScaleFactor", 50);
+	           put("deviceScaleFactor", 100);
+ 			put("mobileScaleFactor", 50);
 	       }};
 	       
 	       driver.executeCdpCommand("Emulation.setDeviceMetricsOverride", deviceMetrics);
