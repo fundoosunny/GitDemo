@@ -31,6 +31,7 @@ public class offlinethrottle {
        devTools.addListener(loadingFailed(), loadingFailed ->
        {
            System.out.println(loadingFailed.getErrorText());
+//error disconnected
            System.out.println(loadingFailed.getTimestamp());
           // Assert.assertEquals(loadingFailed.getErrorText(), "net::ERR_INTERNET_DISCONNECTED");
        });
