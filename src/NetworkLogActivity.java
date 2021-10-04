@@ -16,6 +16,7 @@ public class NetworkLogActivity {
 		System.setProperty("webdriver.chrome.driver", "/Users/rahulshetty/Documents/chromedriver");
 		
 		ChromeDriver driver = new ChromeDriver();
+		ChromeDriver driver1 = new ChromeDriver();
 		//log file ->
 		
 		DevTools devTools = driver.getDevTools();
