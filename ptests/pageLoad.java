@@ -12,6 +12,7 @@ public class pageLoad {
 		// TODO Auto-generated method stub
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions chromeOptions = new ChromeOptions();
+ChromeOptions chromeOptions1 = new ChromeOptions();
         chromeOptions.setPageLoadStrategy(PageLoadStrategy.NONE);
         WebDriver driver = new ChromeDriver(chromeOptions);
  WebDriver driver1 = new ChromeDriver(chromeOptions);
