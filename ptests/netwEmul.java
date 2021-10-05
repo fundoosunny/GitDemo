@@ -20,7 +20,7 @@ public class netwEmul {
 		// Launching browser
         ChromeDriver driver = new ChromeDriver();
        DevTools devTools =  driver.getDevTools();
-       
+       System.out.println("hello");
        devTools.createSession();
        devTools.send(Network.enable(Optional.empty(), Optional.empty(), Optional.empty()));
        
