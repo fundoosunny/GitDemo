@@ -15,5 +15,6 @@ public class MetricPojo {
 		this.value = value;
 	}
 	String name;
+	String value;
 	double value;
 }
