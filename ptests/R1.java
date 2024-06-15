@@ -19,6 +19,7 @@ public class R1 {
 
 		System.setProperty("webdriver.chrome.driver", "/Users/rahulshetty/Documents/chromedriver");
 		ChromeOptions options = new ChromeOptions();
+		ChromeOptions options1 = new ChromeOptions();
 		options.addArguments("--headless");
 		WebDriver driver = new ChromeDriver(options);
 		

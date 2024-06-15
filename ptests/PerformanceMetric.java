@@ -21,6 +21,7 @@ public class PerformanceMetric {
 		WebDriverManager.chromedriver().setup();
 		// Launching browser
         ChromeDriver driver = new ChromeDriver();
+        ChromeDriver driver1 = new ChromeDriver();
        DevTools devTools =  driver.getDevTools();
        ObjectMapper mapper = new ObjectMapper();
 
